@@ -1,0 +1,4 @@
+development.db
+_build
+settings_local.py
+*.pyc
