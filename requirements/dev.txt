@@ -1,0 +1,18 @@
+# requirements for development
+
+# load everything from production
+-r prod.txt
+
+django-extensions
+
+# tests
+-e git://github.com/jbalogh/test-utils.git#egg=test-utils
+-e git://github.com/jbalogh/django-nose.git#egg=django_nose
+nose==0.11.1
+mock==0.6.0
+
+# code quality
+pylint
+coverage
+figleaf
+-e git://github.com/jbalogh/check.git#egg=check

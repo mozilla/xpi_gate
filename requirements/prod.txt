@@ -1,0 +1,6 @@
+# load Docs
+-r docs.txt
+
+-e svn+http://code.djangoproject.com/svn/django/trunk/#egg=Django
+
+South
